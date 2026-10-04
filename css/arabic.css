@@ -61,14 +61,6 @@
     letter-spacing: 0 !important;
 }
 
-/* Hero names and title in Diwani calligraphy (the date stays in the script font). */
-#video-1uif1c [data-section-text-index="0"],
-#video-1uif1c [data-section-text-index="1"],
-#video-1uif1c [data-section-text-index="2"],
-#video-1uif1c [data-section-text-index="3"] {
-    font-family: "DIWANY", serif !important;
-}
-
 /* Big decorative lines in Ruqaa instead of the plain serif. */
 #text-mztyzk .farha-story-fixed-script,
 #text-sjth7s .farha-palace-countdown-ido {
@@ -88,13 +80,6 @@
     font-weight: 700 !important;
 }
 
-/* Diwani reads smaller than the Latin script at the same size. */
-#video-1uif1c [data-section-text-index="0"],
-#video-1uif1c [data-section-text-index="1"],
-#video-1uif1c [data-section-text-index="2"] {
-    font-size: clamp(66px, 17.5cqw, 128px) !important;
-}
-
 /* Several template blocks force direction:ltr (timeline, location, thanks).
    Keep their layout containers as they are, but lay out the text itself
    right-to-left so punctuation and "21 نوفمبر 2026" read in the right order. */
@@ -107,8 +92,3 @@
     direction: rtl !important;
 }
 
-/* Hero date uses Arabic-Indic digits, which the Latin script font lacks. */
-#video-1uif1c [data-section-text-index="4"] {
-    font-family: "Amiri", serif !important;
-    font-weight: 700 !important;
-}
